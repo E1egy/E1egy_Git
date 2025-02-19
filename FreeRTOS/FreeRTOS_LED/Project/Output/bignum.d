@@ -1,0 +1,17 @@
+.\output\bignum.o: ..\mbedtls\library\bignum.c
+.\output\bignum.o: ..\mbedtls\library\common.h
+.\output\bignum.o: ..\mbedtls\include\mbedtls/build_info.h
+.\output\bignum.o: ..\mbedtls\include\mbedtls/mbedtls_config.h
+.\output\bignum.o: ..\mbedtls\include\mbedtls/check_config.h
+.\output\bignum.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+.\output\bignum.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\bignum.o: ..\mbedtls\include\mbedtls/bignum.h
+.\output\bignum.o: ..\mbedtls\include\mbedtls/private_access.h
+.\output\bignum.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\output\bignum.o: ..\mbedtls\library\bignum_core.h
+.\output\bignum.o: ..\mbedtls\library\bn_mul.h
+.\output\bignum.o: ..\mbedtls\include\mbedtls/platform_util.h
+.\output\bignum.o: ..\mbedtls\include\mbedtls/error.h
+.\output\bignum.o: ..\mbedtls\library\constant_time_internal.h
+.\output\bignum.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\output\bignum.o: ..\mbedtls\include\mbedtls/platform.h

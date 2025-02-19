@@ -1,0 +1,17 @@
+.\output\ecp_curves.o: ..\mbedtls\library\ecp_curves.c
+.\output\ecp_curves.o: ..\mbedtls\library\common.h
+.\output\ecp_curves.o: ..\mbedtls\include\mbedtls/build_info.h
+.\output\ecp_curves.o: ..\mbedtls\include\mbedtls/mbedtls_config.h
+.\output\ecp_curves.o: ..\mbedtls\include\mbedtls/check_config.h
+.\output\ecp_curves.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+.\output\ecp_curves.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\ecp_curves.o: ..\mbedtls\include\mbedtls/ecp.h
+.\output\ecp_curves.o: ..\mbedtls\include\mbedtls/private_access.h
+.\output\ecp_curves.o: ..\mbedtls\include\mbedtls/bignum.h
+.\output\ecp_curves.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\output\ecp_curves.o: ..\mbedtls\include\mbedtls/platform_util.h
+.\output\ecp_curves.o: ..\mbedtls\include\mbedtls/error.h
+.\output\ecp_curves.o: ..\mbedtls\library\bn_mul.h
+.\output\ecp_curves.o: ..\mbedtls\library\bignum_core.h
+.\output\ecp_curves.o: ..\mbedtls\library\ecp_invasive.h
+.\output\ecp_curves.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
