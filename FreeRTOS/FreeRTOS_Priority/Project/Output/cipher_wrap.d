@@ -1,0 +1,15 @@
+.\output\cipher_wrap.o: ..\mbedtls\library\cipher_wrap.c
+.\output\cipher_wrap.o: ..\mbedtls\library\common.h
+.\output\cipher_wrap.o: ..\mbedtls\include\mbedtls/build_info.h
+.\output\cipher_wrap.o: ..\mbedtls\include\mbedtls/mbedtls_config.h
+.\output\cipher_wrap.o: ..\mbedtls\include\mbedtls/check_config.h
+.\output\cipher_wrap.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+.\output\cipher_wrap.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\cipher_wrap.o: ..\mbedtls\library\cipher_wrap.h
+.\output\cipher_wrap.o: ..\mbedtls\include\mbedtls/cipher.h
+.\output\cipher_wrap.o: ..\mbedtls\include\mbedtls/private_access.h
+.\output\cipher_wrap.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\output\cipher_wrap.o: ..\mbedtls\include\mbedtls/platform_util.h
+.\output\cipher_wrap.o: ..\mbedtls\include\mbedtls/error.h
+.\output\cipher_wrap.o: ..\mbedtls\include\mbedtls/aes.h
+.\output\cipher_wrap.o: ..\mbedtls\include\mbedtls/platform.h

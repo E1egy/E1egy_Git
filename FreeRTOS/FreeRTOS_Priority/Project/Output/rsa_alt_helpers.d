@@ -1,0 +1,14 @@
+.\output\rsa_alt_helpers.o: ..\mbedtls\library\rsa_alt_helpers.c
+.\output\rsa_alt_helpers.o: ..\mbedtls\library\common.h
+.\output\rsa_alt_helpers.o: ..\mbedtls\include\mbedtls/build_info.h
+.\output\rsa_alt_helpers.o: ..\mbedtls\include\mbedtls/mbedtls_config.h
+.\output\rsa_alt_helpers.o: ..\mbedtls\include\mbedtls/check_config.h
+.\output\rsa_alt_helpers.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+.\output\rsa_alt_helpers.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\rsa_alt_helpers.o: ..\mbedtls\include\mbedtls/rsa.h
+.\output\rsa_alt_helpers.o: ..\mbedtls\include\mbedtls/private_access.h
+.\output\rsa_alt_helpers.o: ..\mbedtls\include\mbedtls/bignum.h
+.\output\rsa_alt_helpers.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\output\rsa_alt_helpers.o: ..\mbedtls\include\mbedtls/md.h
+.\output\rsa_alt_helpers.o: ..\mbedtls\include\mbedtls/platform_util.h
+.\output\rsa_alt_helpers.o: ..\mbedtls\library\rsa_alt_helpers.h

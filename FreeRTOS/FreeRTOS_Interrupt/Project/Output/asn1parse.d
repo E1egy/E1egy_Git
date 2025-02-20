@@ -1,0 +1,15 @@
+.\output\asn1parse.o: ..\mbedtls\library\asn1parse.c
+.\output\asn1parse.o: ..\mbedtls\library\common.h
+.\output\asn1parse.o: ..\mbedtls\include\mbedtls/build_info.h
+.\output\asn1parse.o: ..\mbedtls\include\mbedtls/mbedtls_config.h
+.\output\asn1parse.o: ..\mbedtls\include\mbedtls/check_config.h
+.\output\asn1parse.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+.\output\asn1parse.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\asn1parse.o: ..\mbedtls\include\mbedtls/asn1.h
+.\output\asn1parse.o: ..\mbedtls\include\mbedtls/private_access.h
+.\output\asn1parse.o: ..\mbedtls\include\mbedtls/platform_util.h
+.\output\asn1parse.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\output\asn1parse.o: ..\mbedtls\include\mbedtls/bignum.h
+.\output\asn1parse.o: ..\mbedtls\include\mbedtls/error.h
+.\output\asn1parse.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\output\asn1parse.o: ..\mbedtls\include\mbedtls/platform.h

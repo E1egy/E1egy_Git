@@ -1,0 +1,12 @@
+.\output\platform.o: ..\mbedtls\library\platform.c
+.\output\platform.o: ..\mbedtls\library\common.h
+.\output\platform.o: ..\mbedtls\include\mbedtls/build_info.h
+.\output\platform.o: ..\mbedtls\include\mbedtls/mbedtls_config.h
+.\output\platform.o: ..\mbedtls\include\mbedtls/check_config.h
+.\output\platform.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+.\output\platform.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\platform.o: ..\mbedtls\include\mbedtls/platform.h
+.\output\platform.o: ..\mbedtls\include\mbedtls/private_access.h
+.\output\platform.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\output\platform.o: ..\mbedtls\include\mbedtls/platform_util.h
+.\output\platform.o: ..\mbedtls\include\mbedtls/error.h

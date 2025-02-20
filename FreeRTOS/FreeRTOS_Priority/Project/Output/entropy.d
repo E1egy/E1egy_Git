@@ -1,0 +1,16 @@
+.\output\entropy.o: ..\mbedtls\library\entropy.c
+.\output\entropy.o: ..\mbedtls\library\common.h
+.\output\entropy.o: ..\mbedtls\include\mbedtls/build_info.h
+.\output\entropy.o: ..\mbedtls\include\mbedtls/mbedtls_config.h
+.\output\entropy.o: ..\mbedtls\include\mbedtls/check_config.h
+.\output\entropy.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+.\output\entropy.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\entropy.o: ..\mbedtls\include\mbedtls/entropy.h
+.\output\entropy.o: ..\mbedtls\include\mbedtls/private_access.h
+.\output\entropy.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\output\entropy.o: ..\mbedtls\include\mbedtls/sha512.h
+.\output\entropy.o: ..\mbedtls\library\entropy_poll.h
+.\output\entropy.o: ..\mbedtls\include\mbedtls/platform_util.h
+.\output\entropy.o: ..\mbedtls\include\mbedtls/error.h
+.\output\entropy.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\output\entropy.o: ..\mbedtls\include\mbedtls/platform.h

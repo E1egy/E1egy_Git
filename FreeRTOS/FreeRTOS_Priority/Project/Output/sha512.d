@@ -1,0 +1,14 @@
+.\output\sha512.o: ..\mbedtls\library\sha512.c
+.\output\sha512.o: ..\mbedtls\library\common.h
+.\output\sha512.o: ..\mbedtls\include\mbedtls/build_info.h
+.\output\sha512.o: ..\mbedtls\include\mbedtls/mbedtls_config.h
+.\output\sha512.o: ..\mbedtls\include\mbedtls/check_config.h
+.\output\sha512.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+.\output\sha512.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\sha512.o: ..\mbedtls\include\mbedtls/sha512.h
+.\output\sha512.o: ..\mbedtls\include\mbedtls/private_access.h
+.\output\sha512.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\output\sha512.o: ..\mbedtls\include\mbedtls/platform_util.h
+.\output\sha512.o: ..\mbedtls\include\mbedtls/error.h
+.\output\sha512.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\output\sha512.o: ..\mbedtls\include\mbedtls/platform.h
