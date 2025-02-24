@@ -15,3 +15,13 @@
 .\output\bsp_key.o: ..\Libraries\FWlib\inc\stm32f10x_usart.h
 .\output\bsp_key.o: ..\Libraries\FWlib\inc\misc.h
 .\output\bsp_key.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\output\bsp_key.o: ..\User\FreeRTOS.h
+.\output\bsp_key.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\output\bsp_key.o: ..\FreeRTOS\include\FreeRTOSConfig.h
+.\output\bsp_key.o: ..\FreeRTOS\include\projdefs.h
+.\output\bsp_key.o: ..\FreeRTOS\include\portable.h
+.\output\bsp_key.o: ..\FreeRTOS\include\deprecated_definitions.h
+.\output\bsp_key.o: ..\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h
+.\output\bsp_key.o: ..\FreeRTOS\include\mpu_wrappers.h
+.\output\bsp_key.o: ..\FreeRTOS\include\task.h
+.\output\bsp_key.o: ..\FreeRTOS\include\list.h

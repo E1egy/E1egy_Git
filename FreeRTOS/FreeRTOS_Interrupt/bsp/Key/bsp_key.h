@@ -6,6 +6,7 @@
 #include "stm32f10x_rcc.h"
 #include "stdio.h"
 
+
 #define KEY_1_GPIO  GPIOA
 #define KEY_2_GPIO  GPIOA
 #define KEY_3_GPIO  GPIOA

@@ -54,22 +54,26 @@ static void AppTask_Key(void *parameter)
 {
     while(1)
     {
-        if(GPIO_ReadInputDataBit(KEY_1_GPIO, KEY_1_Pin) == 0)
-        {
-            printf("0000000000000000000000000");
-        }
-        else
-        {
-            printf("1111111111111111111111111");
-        }
-        vTaskDelay(pdMS_TO_TICKS(500));  // 添加延时，防止任务阻塞其他任务
+//        if(GPIO_ReadInputDataBit(KEY_1_GPIO, KEY_1_Pin) == 0)
+//        {
+//            printf("0000000000000000000000000");
+//        }
+//        else
+//        {
+//            printf("1111111111111111111111111");
+//        }
+//        vTaskDelay(pdMS_TO_TICKS(500));  // 添加延时，防止任务阻塞其他任务
+        printf("Enter the FreeRTOS interrupt handler");
+        ulTaskNotifyTake(pdTRUE, portMAX_DELAY);
+        
+        
     }       
 }
 
 // 任务控制块指针
 static TaskHandle_t AppTask_Handle = NULL;
 static TaskHandle_t AppTask_Handle2 = NULL;
-static TaskHandle_t AppTask_Handle_Key = NULL;
+TaskHandle_t AppTask_Handle_Key = NULL;
 
 int main(void)
 {

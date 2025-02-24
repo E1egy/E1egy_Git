@@ -1,5 +1,9 @@
 #include "bsp_key.h"
+#include "FreeRTOS.h"
+#include "task.h"
 
+
+extern TaskHandle_t AppTask_Handle_Key;
 
 void key_init()
 {
@@ -9,7 +13,7 @@ void key_init()
     GPIO_InitTypeDef key_gpio_typedef;
     
     // 默认下拉输入，默认低电平
-    key_gpio_typedef.GPIO_Mode = GPIO_Mode_IPD;
+    key_gpio_typedef.GPIO_Mode = GPIO_Mode_IPD; // 下拉，使默认低电平
     key_gpio_typedef.GPIO_Pin = KEY_1_Pin;
     key_gpio_typedef.GPIO_Speed = GPIO_Speed_50MHz;
     GPIO_Init(GPIOA, &key_gpio_typedef);
@@ -30,6 +34,7 @@ void key_init()
     key_inittypedef.EXTI_Trigger = EXTI_Trigger_Rising;
     EXTI_Init(&key_inittypedef);
     
+    // 配置NVIC中断向量表
     NVIC_InitTypeDef key_nvic;
     key_nvic.NVIC_IRQChannel = EXTI0_IRQn; 
     key_nvic.NVIC_IRQChannelCmd = ENABLE;
@@ -38,10 +43,14 @@ void key_init()
     NVIC_Init(&key_nvic);
 }
 
+
+// 外部中断处理
 void EXTI0_IRQHandler(void)
 {
+    BaseType_t xHigherPriorityTaskWoken = pdFALSE;
     if(EXTI_GetITStatus(EXTI_Line0) != RESET)
     {
+        vTaskNotifyGiveFromISR(AppTask_Handle_Key, &xHigherPriorityTaskWoken);
         printf("Interrupt");
         EXTI_ClearFlag(EXTI_Line0);
     };
