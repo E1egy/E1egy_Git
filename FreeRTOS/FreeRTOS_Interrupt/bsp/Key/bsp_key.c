@@ -50,8 +50,9 @@ void EXTI0_IRQHandler(void)
     BaseType_t xHigherPriorityTaskWoken = pdFALSE;
     if(EXTI_GetITStatus(EXTI_Line0) != RESET)
     {
+        // 通过这个函数，ISR可以通知一个任务（在这里是 AppTask_Handle_Key）。它会将任务的通知计数器增加1，通常用于任务等待某个事件或信号的情境。
         vTaskNotifyGiveFromISR(AppTask_Handle_Key, &xHigherPriorityTaskWoken);
-        printf("Interrupt");
+        printf("EXTI！！！！！！！！！！！！！！！！！！！！\n");
         EXTI_ClearFlag(EXTI_Line0);
     };
 }

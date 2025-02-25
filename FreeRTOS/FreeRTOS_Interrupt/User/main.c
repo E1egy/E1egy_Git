@@ -54,19 +54,9 @@ static void AppTask_Key(void *parameter)
 {
     while(1)
     {
-//        if(GPIO_ReadInputDataBit(KEY_1_GPIO, KEY_1_Pin) == 0)
-//        {
-//            printf("0000000000000000000000000");
-//        }
-//        else
-//        {
-//            printf("1111111111111111111111111");
-//        }
-//        vTaskDelay(pdMS_TO_TICKS(500));  // 添加延时，防止任务阻塞其他任务
         printf("Enter the FreeRTOS interrupt handler");
+        // 该函数会阻塞任务，直到从ISR中收到通知。在这里，pdTRUE表示任务接收到通知后，通知计数器会被清零。
         ulTaskNotifyTake(pdTRUE, portMAX_DELAY);
-        
-        
     }       
 }
 
