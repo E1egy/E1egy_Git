@@ -1,0 +1,14 @@
+.\output\aes.o: ..\mbedtls\library\aes.c
+.\output\aes.o: ..\mbedtls\library\common.h
+.\output\aes.o: ..\mbedtls\include\mbedtls/build_info.h
+.\output\aes.o: ..\mbedtls\include\mbedtls/mbedtls_config.h
+.\output\aes.o: ..\mbedtls\include\mbedtls/check_config.h
+.\output\aes.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+.\output\aes.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\aes.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\output\aes.o: ..\mbedtls\include\mbedtls/aes.h
+.\output\aes.o: ..\mbedtls\include\mbedtls/private_access.h
+.\output\aes.o: ..\mbedtls\include\mbedtls/platform_util.h
+.\output\aes.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\output\aes.o: ..\mbedtls\include\mbedtls/platform.h
+.\output\aes.o: ..\mbedtls\include\mbedtls/error.h

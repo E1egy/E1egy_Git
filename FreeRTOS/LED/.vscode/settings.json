@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "*.inc": "c",
+        "private_key.h": "c",
+        "memory_buffer_alloc.h": "c",
+        "public_key.h": "c",
+        "sha256.h": "c",
+        "md.h": "c",
+        "common.h": "c",
+        "build_info.h": "c",
+        "stdio.h": "c",
+        "ecdsa.h": "c",
+        "stm32f10x_tim.h": "c"
+    }
+}

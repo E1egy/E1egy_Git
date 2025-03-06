@@ -1,0 +1,13 @@
+.\output\memory_buffer_alloc.o: ..\mbedtls\library\memory_buffer_alloc.c
+.\output\memory_buffer_alloc.o: ..\mbedtls\library\common.h
+.\output\memory_buffer_alloc.o: ..\mbedtls\include\mbedtls/build_info.h
+.\output\memory_buffer_alloc.o: ..\mbedtls\include\mbedtls/mbedtls_config.h
+.\output\memory_buffer_alloc.o: ..\mbedtls\include\mbedtls/check_config.h
+.\output\memory_buffer_alloc.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+.\output\memory_buffer_alloc.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\memory_buffer_alloc.o: ..\mbedtls\include\mbedtls/memory_buffer_alloc.h
+.\output\memory_buffer_alloc.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\output\memory_buffer_alloc.o: ..\mbedtls\include\mbedtls/platform.h
+.\output\memory_buffer_alloc.o: ..\mbedtls\include\mbedtls/private_access.h
+.\output\memory_buffer_alloc.o: ..\mbedtls\include\mbedtls/platform_util.h
+.\output\memory_buffer_alloc.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\string.h

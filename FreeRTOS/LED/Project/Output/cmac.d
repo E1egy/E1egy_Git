@@ -1,0 +1,15 @@
+.\output\cmac.o: ..\mbedtls\library\cmac.c
+.\output\cmac.o: ..\mbedtls\library\common.h
+.\output\cmac.o: ..\mbedtls\include\mbedtls/build_info.h
+.\output\cmac.o: ..\mbedtls\include\mbedtls/mbedtls_config.h
+.\output\cmac.o: ..\mbedtls\include\mbedtls/check_config.h
+.\output\cmac.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+.\output\cmac.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\cmac.o: ..\mbedtls\include\mbedtls/cmac.h
+.\output\cmac.o: ..\mbedtls\include\mbedtls/private_access.h
+.\output\cmac.o: ..\mbedtls\include\mbedtls/cipher.h
+.\output\cmac.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\output\cmac.o: ..\mbedtls\include\mbedtls/platform_util.h
+.\output\cmac.o: ..\mbedtls\include\mbedtls/error.h
+.\output\cmac.o: ..\mbedtls\include\mbedtls/platform.h
+.\output\cmac.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\string.h

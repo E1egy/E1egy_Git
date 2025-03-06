@@ -1,0 +1,12 @@
+.\output\base64.o: ..\mbedtls\library\base64.c
+.\output\base64.o: ..\mbedtls\library\common.h
+.\output\base64.o: ..\mbedtls\include\mbedtls/build_info.h
+.\output\base64.o: ..\mbedtls\include\mbedtls/mbedtls_config.h
+.\output\base64.o: ..\mbedtls\include\mbedtls/check_config.h
+.\output\base64.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+.\output\base64.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\base64.o: ..\mbedtls\include\mbedtls/base64.h
+.\output\base64.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\output\base64.o: ..\mbedtls\library\constant_time_internal.h
+.\output\base64.o: ..\mbedtls\include\mbedtls/bignum.h
+.\output\base64.o: ..\mbedtls\include\mbedtls/private_access.h
