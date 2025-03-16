@@ -1,1 +1,6 @@
 large_files/* filter=lfs diff=lfs merge=lfs -text
+<<<<<<< HEAD
+=======
+CX835/** filter=lfs diff=lfs merge=lfs -text
+STM32魔女开发板资料/** filter=lfs diff=lfs merge=lfs -text
+>>>>>>> aa9ff55f4b2278c96bff0cd622f462e6cd4cfc5a
