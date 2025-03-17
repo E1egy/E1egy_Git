@@ -2,7 +2,7 @@
 .\output\stm32f10x_it.o: ..\User\stm32f10x_it.h
 .\output\stm32f10x_it.o: ..\Libraries\CMSIS\stm32f10x.h
 .\output\stm32f10x_it.o: ..\Libraries\CMSIS\core_cm3.h
-.\output\stm32f10x_it.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\stm32f10x_it.o: F:\Software\Keil_v5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdint.h
 .\output\stm32f10x_it.o: ..\Libraries\CMSIS\system_stm32f10x.h
 .\output\stm32f10x_it.o: ..\User\stm32f10x_conf.h
 .\output\stm32f10x_it.o: ..\Libraries\FWlib\inc\stm32f10x_can.h
@@ -15,8 +15,8 @@
 .\output\stm32f10x_it.o: ..\Libraries\FWlib\inc\misc.h
 .\output\stm32f10x_it.o: ..\System\scheduler.h
 .\output\stm32f10x_it.o: ..\System\system_f103.h
-.\output\stm32f10x_it.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
-.\output\stm32f10x_it.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\output\stm32f10x_it.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
-.\output\stm32f10x_it.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\output\stm32f10x_it.o: F:\Software\Keil_v5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdio.h
+.\output\stm32f10x_it.o: F:\Software\Keil_v5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdlib.h
+.\output\stm32f10x_it.o: F:\Software\Keil_v5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdbool.h
+.\output\stm32f10x_it.o: F:\Software\Keil_v5\ARM\ARM_Compiler_5.06u7\Bin\..\include\string.h
 .\output\stm32f10x_it.o: ..\bsp\LED\bsp_led.h

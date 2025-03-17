@@ -1,2 +1,2 @@
 .\output\core_cm3.o: ..\Libraries\CMSIS\core_cm3.c
-.\output\core_cm3.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\core_cm3.o: F:\Software\Keil_v5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdint.h

@@ -1,7 +1,7 @@
 .\output\main.o: ..\User\main.c
 .\output\main.o: ..\Libraries\CMSIS\stm32f10x.h
 .\output\main.o: ..\Libraries\CMSIS\core_cm3.h
-.\output\main.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\main.o: F:\Software\Keil_v5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdint.h
 .\output\main.o: ..\Libraries\CMSIS\system_stm32f10x.h
 .\output\main.o: ..\User\stm32f10x_conf.h
 .\output\main.o: ..\Libraries\FWlib\inc\stm32f10x_can.h
@@ -13,13 +13,13 @@
 .\output\main.o: ..\Libraries\FWlib\inc\stm32f10x_usart.h
 .\output\main.o: ..\Libraries\FWlib\inc\misc.h
 .\output\main.o: ..\bsp\LED\bsp_led.h
-.\output\main.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\output\main.o: F:\Software\Keil_v5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdio.h
 .\output\main.o: ..\bsp\USART\bsp_usart.h
-.\output\main.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\output\main.o: F:\Software\Keil_v5\ARM\ARM_Compiler_5.06u7\Bin\..\include\string.h
 .\output\main.o: ..\bsp\key\bsp_key.h
 .\output\main.o: ..\bsp\RTOS\bsp_rtos.h
 .\output\main.o: ..\User\FreeRTOS.h
-.\output\main.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\output\main.o: F:\Software\Keil_v5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stddef.h
 .\output\main.o: ..\FreeRTOS\include\FreeRTOSConfig.h
 .\output\main.o: ..\FreeRTOS\include\projdefs.h
 .\output\main.o: ..\FreeRTOS\include\portable.h

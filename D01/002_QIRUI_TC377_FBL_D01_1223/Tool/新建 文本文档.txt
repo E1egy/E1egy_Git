@@ -1,5 +1,0 @@
-openssl dgst -sha256 -sign private_key.pem -out signature.bin TC377_Abank_APP_out.bin
-
-
-
-openssl dgst -sha256 -verify public_key.pem -signature signature.bin flash_driver_out.bin

@@ -1,2 +1,16 @@
 .\output\bsp_pwm.o: ..\bsp\PWM\bsp_pwm.c
 .\output\bsp_pwm.o: ..\bsp\PWM\bsp_pwm.h
+.\output\bsp_pwm.o: ..\Libraries\FWlib\inc\stm32f10x_tim.h
+.\output\bsp_pwm.o: ..\Libraries\CMSIS\stm32f10x.h
+.\output\bsp_pwm.o: ..\Libraries\CMSIS\core_cm3.h
+.\output\bsp_pwm.o: F:\Software\Keil_v5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdint.h
+.\output\bsp_pwm.o: ..\Libraries\CMSIS\system_stm32f10x.h
+.\output\bsp_pwm.o: ..\User\stm32f10x_conf.h
+.\output\bsp_pwm.o: ..\Libraries\FWlib\inc\stm32f10x_can.h
+.\output\bsp_pwm.o: ..\Libraries\CMSIS\stm32f10x.h
+.\output\bsp_pwm.o: ..\Libraries\FWlib\inc\stm32f10x_dma.h
+.\output\bsp_pwm.o: ..\Libraries\FWlib\inc\stm32f10x_exti.h
+.\output\bsp_pwm.o: ..\Libraries\FWlib\inc\stm32f10x_gpio.h
+.\output\bsp_pwm.o: ..\Libraries\FWlib\inc\stm32f10x_rcc.h
+.\output\bsp_pwm.o: ..\Libraries\FWlib\inc\stm32f10x_usart.h
+.\output\bsp_pwm.o: ..\Libraries\FWlib\inc\misc.h

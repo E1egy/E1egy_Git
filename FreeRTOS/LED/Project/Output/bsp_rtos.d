@@ -1,8 +1,8 @@
 .\output\bsp_rtos.o: ..\bsp\RTOS\bsp_rtos.c
 .\output\bsp_rtos.o: ..\bsp\RTOS\bsp_rtos.h
 .\output\bsp_rtos.o: ..\User\FreeRTOS.h
-.\output\bsp_rtos.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
-.\output\bsp_rtos.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\bsp_rtos.o: F:\Software\Keil_v5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stddef.h
+.\output\bsp_rtos.o: F:\Software\Keil_v5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdint.h
 .\output\bsp_rtos.o: ..\FreeRTOS\include\FreeRTOSConfig.h
 .\output\bsp_rtos.o: ..\FreeRTOS\include\projdefs.h
 .\output\bsp_rtos.o: ..\FreeRTOS\include\portable.h
@@ -25,4 +25,4 @@
 .\output\bsp_rtos.o: ..\Libraries\FWlib\inc\stm32f10x_rcc.h
 .\output\bsp_rtos.o: ..\Libraries\FWlib\inc\stm32f10x_usart.h
 .\output\bsp_rtos.o: ..\Libraries\FWlib\inc\misc.h
-.\output\bsp_rtos.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\output\bsp_rtos.o: F:\Software\Keil_v5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdio.h

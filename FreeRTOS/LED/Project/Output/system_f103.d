@@ -2,7 +2,7 @@
 .\output\system_f103.o: ..\System\system_f103.h
 .\output\system_f103.o: ..\Libraries\CMSIS\stm32f10x.h
 .\output\system_f103.o: ..\Libraries\CMSIS\core_cm3.h
-.\output\system_f103.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\system_f103.o: F:\Software\Keil_v5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdint.h
 .\output\system_f103.o: ..\Libraries\CMSIS\system_stm32f10x.h
 .\output\system_f103.o: ..\User\stm32f10x_conf.h
 .\output\system_f103.o: ..\Libraries\FWlib\inc\stm32f10x_can.h
@@ -13,7 +13,7 @@
 .\output\system_f103.o: ..\Libraries\FWlib\inc\stm32f10x_rcc.h
 .\output\system_f103.o: ..\Libraries\FWlib\inc\stm32f10x_usart.h
 .\output\system_f103.o: ..\Libraries\FWlib\inc\misc.h
-.\output\system_f103.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
-.\output\system_f103.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\output\system_f103.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
-.\output\system_f103.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\output\system_f103.o: F:\Software\Keil_v5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdio.h
+.\output\system_f103.o: F:\Software\Keil_v5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdlib.h
+.\output\system_f103.o: F:\Software\Keil_v5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdbool.h
+.\output\system_f103.o: F:\Software\Keil_v5\ARM\ARM_Compiler_5.06u7\Bin\..\include\string.h

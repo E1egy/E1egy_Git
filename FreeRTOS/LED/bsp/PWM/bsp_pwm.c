@@ -31,7 +31,7 @@ void PWM_init()
       
     
     // 初始化
-    TIM_PWMIConfig(TIM2, &TIM_OCStructure);
+    //TIM_PWMIConfig(TIM2, &TIM_OCStructure);
 
 
 
